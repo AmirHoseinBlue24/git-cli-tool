@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-cli-tool"
+version = "1.0.0"
+description = "A professional Git CLI wrapper with enhanced user experience"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "َAmirHoseinBlue", email = "amirakhlagh893@gmail.com"},
+]
+maintainers = [
+    {name = "َAmirHoseinBlue", email = "amirakhlagh893@gmail.com"},
+]
+keywords = ["git", "cli", "tool", "wrapper", "version-control"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Version Control :: Git",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/َAmirHoseinBlue24/git-cli-tool"
+"Bug Reports" = "https://github.com/َAmirHoseinBlue24/git-cli-tool/issues"
+"Source" = "https://github.com/َAmirHoseinBlue24/git-cli-tool"
+
+[project.scripts]
+gitool = "git_cli_tool:main"
+
+[tool.setuptools]
+packages = ["git_cli_tool"]
+
+[tool.setuptools.package-dir]
+"git_cli_tool" = "src"
