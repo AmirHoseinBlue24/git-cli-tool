@@ -36,7 +36,11 @@ A professional, user-friendly Git command-line wrapper that makes Git operations
 
 ### Option 1: pip
 ```bash
+# Download package
 pip install git-cli-tool==1.0.0
+
+#Run from anywhere
+gitool
 ```
 
 ### Option 2: Direct Download
