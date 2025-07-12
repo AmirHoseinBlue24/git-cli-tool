@@ -34,7 +34,12 @@ A professional, user-friendly Git command-line wrapper that makes Git operations
 
 ## 🔧 Installation
 
-### Option 1: Direct Download
+### Option 1: pip
+```bash
+pip install git-cli-tool==1.0.0
+```
+
+### Option 2: Direct Download
 ```bash
 # Download the script
 curl -O https://raw.githubusercontent.com/AmirHoseinBlue24/git-cli-tool/main/git_cli_tool.py
@@ -46,7 +51,7 @@ chmod +x git_cli_tool.py
 python git_cli_tool.py
 ```
 
-### Option 2: Package Installation
+### Option 3: Package Installation
 ```bash
 # Clone the repository
 git clone https://github.com/AmirHoseinBlue24/git-cli-tool.git
@@ -59,7 +64,7 @@ pip install -e .
 gitool
 ```
 
-### Option 3: System-wide Installation
+### Option 4: System-wide Installation
 ```bash
 # Copy to system path
 sudo cp git_cli_tool.py /usr/local/bin/gitool
