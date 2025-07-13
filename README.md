@@ -39,14 +39,14 @@ A professional, user-friendly Git command-line wrapper that makes Git operations
 # Download package
 pip install git-cli-tool==1.0.0
 
-#Run from anywhere
+# Run from anywhere
 gitool
 ```
 
 ### Option 2: Direct Download
 ```bash
 # Download the script
-curl -O https://raw.githubusercontent.com/AmirHoseinBlue24/git-cli-tool/main/git_cli_tool.py
+curl -O https://raw.githubusercontent.com/AmirHoseinBlue24/git-cli-tool/main/src/git_cli_tool.py
 
 # Make it executable
 chmod +x git_cli_tool.py
